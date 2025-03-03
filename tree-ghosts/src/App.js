@@ -1,23 +1,60 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState } from "react";
 
 function App() {
+  const [
+    selectedValue,
+    setSelectedValue,
+  ] = useState("past");
+
+  const handleRadioChange = (
+    value
+  ) => {
+      setSelectedValue(value);
+      console.log("test");
+      //add functionality to toggle view
+  };
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Ghosts of Trees
       </header>
+      <section>
+        <div id ='title'>The Trees Past</div>
+        insert map here
+        <div className="floating container">
+          <div className="radioGroup">
+            <div className='radioButton'>
+              <input 
+                type='radio' 
+                id='past' 
+                value="past" 
+                checked={selectedValue === "past"} 
+                onChange={()=>handleRadioChange("past")}/>
+              <label htmlFor='past'>Past</label>
+            </div>
+            <div className='radioButton'>
+              <input 
+                type='radio' 
+                id='present' 
+                value="present" 
+                checked={selectedValue === "present"} 
+                onChange={()=>handleRadioChange("present")}/>
+              <label htmlFor='present'>Present</label>
+            </div>
+            <div className='radioButton'>
+              <input 
+                type='radio' 
+                id='future' 
+                value="future" 
+                checked={selectedValue === "future"} 
+                onChange={()=>handleRadioChange("future")}/>
+              <label htmlFor='future'>Future</label>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
