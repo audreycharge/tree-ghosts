@@ -1,8 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
+import TreeCard from "./components/treecard";
+import Button from 'react-bootstrap/Button'
 
 function App() {
+
+  // const treenodes = insert tree data here;
+
   const [
     selectedValue,
     setSelectedValue,
@@ -23,6 +28,7 @@ function App() {
       <section>
         <div id ='title'>The Trees Past</div>
         insert map here
+        <TreeCard/>
         <div className="floating container">
           <div className="radioGroup">
             <div className='radioButton'>
