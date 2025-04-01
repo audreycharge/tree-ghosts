@@ -21,10 +21,25 @@ section {
 #title {
   position: sticky;
   top: 0;
+  z-index: 5;
   padding: 15px;
   font-size: x-large;
   background-color: hotpink;
 
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  /* display: none; Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
 }
 
 .App-header {
@@ -52,9 +67,11 @@ section {
 }
 
 .floating {
-  position: sticky;
+  position: absolute;
   z-index: 10;
-  top: 100%;
+  top: 180%;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   flex: 1;
   justify-content: center;
