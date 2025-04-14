@@ -15,8 +15,8 @@ const Trees = [
         name: "Tetris",
         number: "305",
         img: logo,
-        lat: 40,
-        long: -100,
+        lat: 33.74973,
+        long: -84.373995,
     },
 ];
 

@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import broken from '../assets/broken.jpg';
+import {Marker} from '@vis.gl/react-maplibre';
 import '../App.css';
 // import TreeCard from "./treecard";
 
 function TreeButton(props) {
     //Using useToggle Hook
-
   const useToggle = (initialState) => {
     const [toggleValue, setToggleValue] = useState(initialState);
 
@@ -18,18 +17,18 @@ function TreeButton(props) {
   const [toggle, setToggle] = useToggle();
     return (
         <div>
-            <Button
+            <Marker
+                latitude={props.lat}
+                longitude={props.long}
                 onClick={setToggle}
-                variant="primary"
             >
-                Open Me
-            </Button>
+            </Marker>
             {toggle &&(
                 <div>
                     <div id="overlay"
                         onClick={setToggle}
                     ></div>
-                    <Card style={{ width: '18rem', position:'absolute', left:'50%', transform:'translateX(-50%)', zIndex:'100'}}>
+                    <Card style={{ width: '18rem', position:'fixed', left:'50%', top:'50%', transform:'translate(-50%, -50%)', zIndex:'100'}}>
                     <Card.Img variant="bottom" src={props.img} />
                     <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
