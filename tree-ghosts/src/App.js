@@ -2,6 +2,7 @@
 import './App.css';
 import React, { useState, useRef } from "react";
 import TreeMap from "./components/treemap";
+// import pin from "./assets/treepin.svg"
 var val;
 
 function App() {
@@ -35,10 +36,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Ghosts of Trees
+        <h1>Trees of Oakland Cemetery</h1>
+        <h4>Heres a little info about what its about. we are recording champion trees that lived in oakland cemetery</h4>
       </header>
       <section>
-        <div id ='title' ref={titleRef}>The Trees Past</div>
+      {/* <img src={pin} alt="Tree Pin" /> */}
+        <div id ='title' ref={titleRef}>The Trees Present</div>
         <br/>
         <br/>
         <div ref={overlayRef}>
@@ -76,6 +79,9 @@ function App() {
           </div>
         </div>
       </section>
+      <footer>
+        <p>Created by <a href="https://audschung.com/">Audrey Chung</a> & <a href="https://cubic-star-b3a.notion.site/Sheleah-Harris-Portfolio-8f93f4865a9149d5806dd5e27db3d7e4">Sheleah Harris</a></p>
+      </footer>
     </div>
   );
 }

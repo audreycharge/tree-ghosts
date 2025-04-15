@@ -3,7 +3,8 @@ import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Marker} from '@vis.gl/react-maplibre';
 import '../App.css';
-// import TreeCard from "./treecard";
+import pin from "../assets/treepin.svg"
+import Button from 'react-bootstrap/Button';
 
 function TreeButton(props) {
     //Using useToggle Hook
@@ -21,6 +22,8 @@ function TreeButton(props) {
                 longitude={props.long}
                 onClick={setToggle}
             >
+              <img src={pin} className="treepin"/>
+              {/* <Button></Button> */}
             </Marker>
             {toggle &&(
                 <div>

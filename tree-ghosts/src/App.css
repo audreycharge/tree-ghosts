@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   color: aliceblue;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -23,7 +24,9 @@ section {
   position: sticky;
   top: 0;
   z-index: 5;
-  padding: 15px;
+  height: 10vh;
+  justify-content: center;
+  align-content: center;
   font-size: x-large;
   background-color: rgb(79, 70, 74);
   color: aliceblue;
@@ -46,7 +49,7 @@ section {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +74,7 @@ section {
 .floating {
   position: absolute;
   z-index: 10;
-  top: 180%;
+  top: 170%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -118,4 +121,17 @@ input[type=radio]:checked+label {
 
 .future {
   filter: hue-rotate(120deg);
+}
+
+.treepin {
+  width: 30px;
+  height: auto;
+}
+
+footer {
+  padding: 10px;
+
+}
+a:link {
+  color: aliceblue
 }
