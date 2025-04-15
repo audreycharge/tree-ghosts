@@ -2,25 +2,33 @@
 import './App.css';
 import React, { useState, useRef } from "react";
 import TreeMap from "./components/treemap";
-// import Button from 'react-bootstrap/Button'
+var val;
 
 function App() {
   var title = "The Trees "
   const titleRef = useRef(null)
+  const overlayRef = useRef(null)
   // const treenodes = insert tree data here;
 
   const [
     selectedValue,
     setSelectedValue,
-  ] = useState("Past");
+  ] = useState("Present");
 
   const handleRadioChange = (
     value
   ) => {
       setSelectedValue(value);
       title = "The Trees " + value
+      val = value;
       titleRef.current.textContent = title
-      console.log(titleRef.current.textContent);
+      if (value == "Past") {
+        overlayRef.current.className = "past"
+      } else if (value == "Present") {
+        overlayRef.current.className = "present"
+      } else {
+        overlayRef.current.className = "future"
+      }
 
       //add functionality to toggle view
   };
@@ -33,7 +41,9 @@ function App() {
         <div id ='title' ref={titleRef}>The Trees Past</div>
         <br/>
         <br/>
-        <TreeMap/>
+        <div ref={overlayRef}>
+          <TreeMap state={val}/>
+        </div>
         <div className="floating container">
           <div className="radioGroup">
             <div className='radioButton'>
