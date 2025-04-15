@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/tree-ghosts/static/css/main.e2c537d1.css",
-    "main.js": "/tree-ghosts/static/js/main.60bf3a30.js",
+    "main.js": "/tree-ghosts/static/js/main.bca10f5b.js",
     "static/js/66.080cc185.chunk.js": "/tree-ghosts/static/js/66.080cc185.chunk.js",
     "static/js/453.3b0d212e.chunk.js": "/tree-ghosts/static/js/453.3b0d212e.chunk.js",
+    "static/media/tree2.png": "/tree-ghosts/static/media/tree2.8b8e2fa33e5ea2615249.png",
+    "static/media/brokentree.jpg": "/tree-ghosts/static/media/brokentree.42d9b7d4c8c67f6bef7c.jpg",
     "static/media/broken.jpg": "/tree-ghosts/static/media/broken.91f7ac65d65baabd5de7.jpg",
-    "static/media/logo.svg": "/tree-ghosts/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tree-ghosts/index.html",
     "main.e2c537d1.css.map": "/tree-ghosts/static/css/main.e2c537d1.css.map",
-    "main.60bf3a30.js.map": "/tree-ghosts/static/js/main.60bf3a30.js.map",
+    "main.bca10f5b.js.map": "/tree-ghosts/static/js/main.bca10f5b.js.map",
     "66.080cc185.chunk.js.map": "/tree-ghosts/static/js/66.080cc185.chunk.js.map",
     "453.3b0d212e.chunk.js.map": "/tree-ghosts/static/js/453.3b0d212e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2c537d1.css",
-    "static/js/main.60bf3a30.js"
+    "static/js/main.bca10f5b.js"
   ]
 }
