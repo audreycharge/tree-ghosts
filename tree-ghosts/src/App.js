@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState, useRef } from "react";
 import TreeMap from "./components/treemap";
 // import pin from "./assets/treepin.svg"
-var val = "Present";
+var val = "Past";
 
 function App() {
   var title = "The Trees "
@@ -14,7 +14,7 @@ function App() {
   const [
     selectedValue,
     setSelectedValue,
-  ] = useState("Present");
+  ] = useState("Past");
 
   const handleRadioChange = (
     value
@@ -41,10 +41,10 @@ function App() {
       </header>
       <section>
       {/* <img src={pin} alt="Tree Pin" /> */}
-        <div id ='title' ref={titleRef}>The Trees Present</div>
+        <div id ='title' ref={titleRef}>The Trees Past</div>
         <br/>
         <br/>
-        <div ref={overlayRef}>
+        <div ref={overlayRef} className='past'>
           <TreeMap state={val}/>
         </div>
         <div className="floating container">

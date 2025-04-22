@@ -126,15 +126,15 @@ input[type=radio]:checked+label {
 }
 
 .past {
-  filter: hue-rotate(240deg);
-}
-
-.present{
   filter: hue-rotate(0);
 }
 
-.future {
+.present{
   filter: hue-rotate(120deg);
+}
+
+.future {
+  filter: hue-rotate(240deg);
 }
 
 .treepin {
