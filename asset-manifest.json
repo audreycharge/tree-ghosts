@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tree-ghosts/static/css/main.c88abd8a.css",
-    "main.js": "/tree-ghosts/static/js/main.5c8bef66.js",
+    "main.js": "/tree-ghosts/static/js/main.6603759e.js",
     "static/js/66.080cc185.chunk.js": "/tree-ghosts/static/js/66.080cc185.chunk.js",
     "static/js/453.3b0d212e.chunk.js": "/tree-ghosts/static/js/453.3b0d212e.chunk.js",
     "static/media/hubner.jpg": "/tree-ghosts/static/media/hubner.9600c174a7a449ad3e00.jpg",
@@ -14,12 +14,12 @@
     "static/media/treepin.svg": "/tree-ghosts/static/media/treepin.4c42e584727b0fa3fb309cfdcbf4468d.svg",
     "index.html": "/tree-ghosts/index.html",
     "main.c88abd8a.css.map": "/tree-ghosts/static/css/main.c88abd8a.css.map",
-    "main.5c8bef66.js.map": "/tree-ghosts/static/js/main.5c8bef66.js.map",
+    "main.6603759e.js.map": "/tree-ghosts/static/js/main.6603759e.js.map",
     "66.080cc185.chunk.js.map": "/tree-ghosts/static/js/66.080cc185.chunk.js.map",
     "453.3b0d212e.chunk.js.map": "/tree-ghosts/static/js/453.3b0d212e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c88abd8a.css",
-    "static/js/main.5c8bef66.js"
+    "static/js/main.6603759e.js"
   ]
 }
