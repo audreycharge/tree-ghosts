@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState, useRef } from "react";
 import TreeMap from "./components/treemap";
 // import pin from "./assets/treepin.svg"
-var val;
+var val = "Present";
 
 function App() {
   var title = "The Trees "
@@ -23,9 +23,9 @@ function App() {
       title = "The Trees " + value
       val = value;
       titleRef.current.textContent = title
-      if (value == "Past") {
+      if (value === "Past") {
         overlayRef.current.className = "past"
-      } else if (value == "Present") {
+      } else if (value === "Present") {
         overlayRef.current.className = "present"
       } else {
         overlayRef.current.className = "future"

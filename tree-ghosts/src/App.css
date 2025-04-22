@@ -2,11 +2,24 @@
   text-align: center;
   color: aliceblue;
   background-color: #282c34;
+  font-family: "Baskervville", 'regular';
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville-regular-italic {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -56,6 +69,7 @@ section {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-weight: 600;
 }
 
 .App-link {
