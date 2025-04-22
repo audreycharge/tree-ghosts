@@ -11,7 +11,6 @@ function TreeMap ({state}) {
     [-84.38, 33.744], // Southwest coordinates
     [-84.365, 33.755] // Northeast coordinates
   ];
-  // console.log({state});
   if (state === "Future") {
     return <Map
       initialViewState={{
@@ -20,7 +19,6 @@ function TreeMap ({state}) {
         zoom: 16.5
       }}
       style={{width: "80%", height: '80vh', transform:'translateX(10%)'}}
-      // mapStyle="https://api.maptiler.com/maps/streets/style.json?key=KjjL6dFdWjXBhJd69IwT"
       maxBounds={bounds}
       mapStyle="https://api.maptiler.com/maps/0196353f-ceaf-7560-ba8b-ea0384067836/style.json?key=KjjL6dFdWjXBhJd69IwT"
     >
@@ -38,9 +36,7 @@ function TreeMap ({state}) {
         zoom: 16.5
       }}
       style={{width: "80%", height: '80vh', transform:'translateX(10%)'}}
-      // mapStyle="https://api.maptiler.com/maps/streets/style.json?key=KjjL6dFdWjXBhJd69IwT"
       maxBounds={bounds}
-      // mapStyle="https://demotiles.maplibre.org/style.json"
       mapStyle="https://api.maptiler.com/maps/0196353f-ceaf-7560-ba8b-ea0384067836/style.json?key=KjjL6dFdWjXBhJd69IwT"
     >
       {Trees.map((e) => {
@@ -58,9 +54,7 @@ function TreeMap ({state}) {
         zoom: 16.5
       }}
       style={{width: "80%", height: '80vh', transform:'translateX(10%)'}}
-      // mapStyle="https://api.maptiler.com/maps/streets/style.json?key=KjjL6dFdWjXBhJd69IwT"
       maxBounds={bounds}
-      // mapStyle="https://demotiles.maplibre.org/style.json"
       mapStyle="https://api.maptiler.com/maps/0196353f-ceaf-7560-ba8b-ea0384067836/style.json?key=KjjL6dFdWjXBhJd69IwT"
     >
       {PastNodes.map((e) => {

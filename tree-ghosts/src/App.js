@@ -36,8 +36,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Trees of Oakland Cemetery</h1>
-        <h4>Heres a little info about what its about. we are recording champion trees that lived in oakland cemetery</h4>
+        <h1>Witness Trees of Oakland Cemetery</h1>
+        <h4>Similar to Champion Trees, but these are trees' significance is defined not by their size, but by the events they've seen.</h4>
       </header>
       <section>
       {/* <img src={pin} alt="Tree Pin" /> */}
@@ -81,6 +81,7 @@ function App() {
       </section>
       <footer>
         <p>Created by <a href="https://audschung.com/">Audrey Chung</a> & <a href="https://cubic-star-b3a.notion.site/Sheleah-Harris-Portfolio-8f93f4865a9149d5806dd5e27db3d7e4">Sheleah Harris</a></p>
+        <p>Information from Mary Price & Cooper Sanchez</p>
       </footer>
     </div>
   );

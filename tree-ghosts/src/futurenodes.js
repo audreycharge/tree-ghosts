@@ -1,34 +1,74 @@
-import broken from './assets/broken.jpg';
-import broken2 from './assets/brokentree.jpg';
-import tree2 from './assets/tree2.png';
+import dogwood from './assets/dogwood.jpg';
+import cooper from './assets/cooper.jpg';
+import hubner from './assets/hubner.jpg';
+import linden from './assets/linden.jpg';
+import whiteoak from './assets/whiteoak.png';
+import phoenix from './assets/phoenix.jpg';
+import hemlock from './assets/hemlock.jpg';
 
 const FutureNodes = [
     {
         id: 0,
-        name: "Magnolia Mason",
+        name: "Tornado White Oak",
         number: "2",
-        img: tree2,
-        lat: 33.748720,
-        long: -84.373093,
-        desc: "I hang out with the Mason family and I might be the second oldest tree in the cemetery!"
+        img: whiteoak,
+        lat: 33.747895,
+        long: -84.375044,
+        desc: ""
     },
     {
         id: 1,
-        name: "Atkins Tree",
+        name: "Phoenix Magnolia",
         number: "105",
-        img: broken2,
-        lat: 33.74973,
-        long: -84.373995,
-        desc: "I'm still here"
+        img: phoenix,
+        lat: 33.747969,
+        long: -84.374760,
+        desc: ""
     },
     {
         id: 2,
-        name: "Broken Tree",
+        name: "Hubner Magnolia",
         number: "674",
-        img: broken,
-        lat: 33.74873,
-        long: -84.373905,
-        desc:"It got taken away and the stump is left in its place."
+        img: hubner,
+        lat: 33.748375,
+        long: -84.373104,
+        desc:""
+    },
+    {
+        id: 3,
+        name: "Cooper's FavFIRite",
+        number: "674",
+        img: cooper,
+        lat: 33.747440,
+        long: -84.372947,
+        desc:""
+    },
+    {
+        id: 4,
+        name: "Xæthulğ: The Tree with Too Many Names",
+        number: "674",
+        img: linden,
+        lat: 33.747910,
+        long: -84.373464,
+        desc:""
+    },
+    {
+        id: 5,
+        name: "Canadian Hemlock",
+        number: "674",
+        img: hemlock,
+        lat: 33.747374,
+        long: -84.373007,
+        desc:""
+    },
+    {
+        id: 6,
+        name: "Florida(not anymore) Dogwood",
+        number: "674",
+        img: dogwood,
+        lat: 33.747538,
+        long: -84.373887,
+        desc:""
     },
 ];
 
