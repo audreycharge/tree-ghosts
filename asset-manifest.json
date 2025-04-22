@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/tree-ghosts/static/css/main.cf5ffa9d.css",
-    "main.js": "/tree-ghosts/static/js/main.dfbd32de.js",
+    "main.css": "/tree-ghosts/static/css/main.6cf5959b.css",
+    "main.js": "/tree-ghosts/static/js/main.2fec4009.js",
     "static/js/66.080cc185.chunk.js": "/tree-ghosts/static/js/66.080cc185.chunk.js",
     "static/js/453.3b0d212e.chunk.js": "/tree-ghosts/static/js/453.3b0d212e.chunk.js",
-    "static/media/tree2.png": "/tree-ghosts/static/media/tree2.8b8e2fa33e5ea2615249.png",
-    "static/media/brokentree.jpg": "/tree-ghosts/static/media/brokentree.42d9b7d4c8c67f6bef7c.jpg",
-    "static/media/broken.jpg": "/tree-ghosts/static/media/broken.91f7ac65d65baabd5de7.jpg",
+    "static/media/hubner.jpg": "/tree-ghosts/static/media/hubner.9600c174a7a449ad3e00.jpg",
+    "static/media/linden.jpg": "/tree-ghosts/static/media/linden.f7265ecf38000d3f29bb.jpg",
+    "static/media/dogwood.jpg": "/tree-ghosts/static/media/dogwood.3681ffcc6d54d1a963ca.jpg",
+    "static/media/phoenix.jpg": "/tree-ghosts/static/media/phoenix.855b86706d6b1c254ffb.jpg",
+    "static/media/whiteoak.png": "/tree-ghosts/static/media/whiteoak.52204a627a33e2cc6526.png",
+    "static/media/cooper.jpg": "/tree-ghosts/static/media/cooper.d151e98946660a301fc5.jpg",
+    "static/media/hemlock.jpg": "/tree-ghosts/static/media/hemlock.1dbc44e27b8775de00d0.jpg",
     "static/media/treepin.svg": "/tree-ghosts/static/media/treepin.4c42e584727b0fa3fb309cfdcbf4468d.svg",
     "index.html": "/tree-ghosts/index.html",
-    "main.cf5ffa9d.css.map": "/tree-ghosts/static/css/main.cf5ffa9d.css.map",
-    "main.dfbd32de.js.map": "/tree-ghosts/static/js/main.dfbd32de.js.map",
+    "main.6cf5959b.css.map": "/tree-ghosts/static/css/main.6cf5959b.css.map",
+    "main.2fec4009.js.map": "/tree-ghosts/static/js/main.2fec4009.js.map",
     "66.080cc185.chunk.js.map": "/tree-ghosts/static/js/66.080cc185.chunk.js.map",
     "453.3b0d212e.chunk.js.map": "/tree-ghosts/static/js/453.3b0d212e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf5ffa9d.css",
-    "static/js/main.dfbd32de.js"
+    "static/css/main.6cf5959b.css",
+    "static/js/main.2fec4009.js"
   ]
 }
