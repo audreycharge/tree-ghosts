@@ -81,7 +81,7 @@ function App() {
       </section>
       <footer>
         <p>Created by <a href="https://audschung.com/">Audrey Chung</a> & <a href="https://cubic-star-b3a.notion.site/Sheleah-Harris-Portfolio-8f93f4865a9149d5806dd5e27db3d7e4">Sheleah Harris</a></p>
-        <p>Information from Mary Price & Cooper Sanchez</p>
+        <p>Information by Mary Price & Cooper Sanchez</p>
       </footer>
     </div>
   );
