@@ -23,24 +23,23 @@ function TreeButton(props) {
                 onClick={setToggle}
             >
               <img src={pin} className="treepin"/>
-              {/* <Button></Button> */}
             </Marker>
             {toggle &&(
-                <div>
-                    <div id="overlay"
-                        onClick={setToggle}
-                    ></div>
-                    <Card style={{ width: '18rem', position:'fixed', left:'50%', top:'40%', transform:'translate(-50%, -50%)', zIndex:'100'}}>
-                    <Card.Img variant="bottom" src={props.img} />
-                    <Card.Body>
-                    <Card.Title>{props.name}</Card.Title>
-                    <Card.Text>
-                      Tree {props.number}<br/>
-                        
-                        {props.desc}
-                    </Card.Text>
-                    {/* <Button variant="flat" size="xxl">Go somewhere</Button> */}
-                    </Card.Body>
+              <div>
+                <div id="overlay"
+                    onClick={setToggle}
+                  ></div>
+                <Card style={{ width: '18rem', position:'fixed', left:'50%', top:'40%', transform:'translate(-50%, -50%)', zIndex:'100'}}>
+                  <Card.Img variant="bottom" src={props.img} />
+                  <Card.Body>
+                  <Card.Title>{props.name}</Card.Title>
+                  <Card.Text>
+                    Tree {props.number}<br/>
+                      
+                      {props.desc}
+                  </Card.Text>
+                  {/* <Button variant="flat" size="xxl">Go somewhere</Button> */}
+                  </Card.Body>
                 </Card>
               </div>
             )}
